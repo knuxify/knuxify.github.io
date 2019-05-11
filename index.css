@@ -1,0 +1,60 @@
+body {
+    color: #cfccc8;
+    background-image: url('LakeSideView.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 100%;
+    display: block;
+    margin: 0px;
+    font-size: 17px;
+    background-attachment: fixed;
+    background-position: center;
+}
+header, footer {
+    background: rgba(40, 44, 52, 0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.content {
+    background: #282c34;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* begin generic stuff */
+html {
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+article, aside, figcaption, figure, hgroup, main, nav, section {
+    display: block;
+}
+a { font-size: 30px; }
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+    color: #dadada;
+}
+a:active {
+    text-decoration: none;
+    color: #fff;
+}
+/* end generic stuff */
